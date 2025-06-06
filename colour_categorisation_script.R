@@ -31,8 +31,8 @@ DATA$colour_cat <- "elephant"
 
 #defining categories; h - hue; l - lightness; c - chroma
 DATA$colour_cat[DATA$h > 280 & DATA$h <= 345] <- "purple"
-DATA$colour_cat[DATA$h > 346 &  DATA$l > 60] <- "pink"
-DATA$colour_cat[DATA$h > 346 &  DATA$l <= 60] <- "red"
+DATA$colour_cat[DATA$h > 345 &  DATA$l > 60] <- "pink"
+DATA$colour_cat[DATA$h > 345 &  DATA$l <= 60] <- "red"
 DATA$colour_cat[DATA$h <= 45 &  DATA$l <= 60] <- "red"
 DATA$colour_cat[DATA$h <= 45 &  DATA$l > 60] <- "pink"
 DATA$colour_cat[DATA$h > 45 & DATA$h <= 72 &  DATA$l > 50] <- "orange"
